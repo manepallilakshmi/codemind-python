@@ -1,8 +1,8 @@
 n=int(input())
 a=list(map(int,input().split()))
+x=[]
 s=0
 c=0
-x=[]
 for i in a:
     b=a.count(i)
     if(i==b and i not in x):
