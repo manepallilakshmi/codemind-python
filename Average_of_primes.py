@@ -11,4 +11,3 @@ for i in a:
             s=s+i
             c+=1
 print("%0.2f"%(s/c))
-        
