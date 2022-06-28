@@ -7,4 +7,3 @@ for i in a:
         c+=1
         b+=[i]
 print(c)
-        
