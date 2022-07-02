@@ -1,8 +1,10 @@
-n=input()
-b=[]
-for i in n:
-    if i not in b and i not in ' ABCDEFGHIJKLMNOPQRSTUVWXYZ':
-        b+=[i]
-p=sorted(b)
-for j in p:
-    print(j,end='')
+a=input()
+a=a.lower()
+s=""
+for i in a:
+    if a.count(i)==1:
+        s=s+i
+s=sorted(s)
+for i in s:
+    if i!=" ":
+        print(i,end="")
